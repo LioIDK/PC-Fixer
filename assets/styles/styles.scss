@@ -228,11 +228,12 @@ footer{
 
 .contenedor-precios{
 
-    display:grid;
-
-    grid-template-columns:repeat(4,1fr);
-
-    gap:35px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
 
 }
 
@@ -275,7 +276,7 @@ footer{
 
         width:100%;
 
-        border-radius:10px;
+        border-radius:20px;
 
     }
 

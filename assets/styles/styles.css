@@ -113,8 +113,11 @@ footer h3 {
 
 .contenedor-precios {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 35px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .p1,
@@ -145,7 +148,7 @@ footer h3 {
 .p7 img,
 .p8 img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .p1 p:first-child,
 .p2 p:first-child,
